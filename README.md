@@ -4,7 +4,7 @@
 ```
 chmod 775 ./file
 ```
-## start for termux
+## start on termux
 ```
 gcc file.cpp -o file -lncurses
 ./file

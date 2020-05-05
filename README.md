@@ -2,6 +2,8 @@
 # my soft for linux and termux
 ## download
 ```
+linux: sudo apt update
+termux: pkg update
 git clone https://github.com/boroveen/mysoft/
 cd mysoft
 ls

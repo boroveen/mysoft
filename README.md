@@ -1,5 +1,11 @@
 # mysoft
 # my soft for linux and termux
+## download
+```
+git clone https://github.com/boroveen/mysoft/
+cd mysoft
+ls
+```
 ## error denied
 ```
 chmod 775 ./file

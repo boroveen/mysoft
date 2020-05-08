@@ -7,6 +7,7 @@ termux: pkg update
 git clone https://github.com/boroveen/mysoft/
 cd mysoft
 ls
+./file
 ```
 ## error denied
 ```

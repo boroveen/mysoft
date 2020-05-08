@@ -24,7 +24,7 @@ init_pair(5, COLOR_MAGENTA, COLOR_BLACK);
 init_pair(6, COLOR_CYAN, COLOR_BLACK);
 getmaxyx(stdscr, row, cal);
 attron(COLOR_PAIR(1));
-mvprintw(row / 2, cal / 2 - 5, "hello world");
+mvprintw(row / 2, cal / 2 - 5, "%s", hello_world);
 getch();
 halfdelay(1);
 mvprintw(row / 2, cal / 2 - 6, " ");

@@ -18,6 +18,11 @@ chmod 775 ./file
 gcc file.cpp -o file -lncurses
 ./file
 ```
+or
+```
+cd termux
+./file
+```
 ## test code
 ```c++
 #include <ncurses.h>

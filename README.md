@@ -9,9 +9,9 @@ pkg install clang && pkg install git
 )
 linux:
 (
-sudo apt install libncurses-dev
-sudo apt install clang && sudo apt install gcc
-sudo apt install git
+sudo apt-get install libncurses-dev
+sudo apt-get install clang && sudo apt install gcc
+sudo apt-get install git
 )
 git clone https://github.com/boroveen/mysoft/
 cd mysoft

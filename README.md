@@ -2,8 +2,17 @@
 # my soft for linux and termux
 ## download
 ```
-linux: sudo apt-get update
-termux: pkg update
+termux:
+(
+pkg update && pkg upgrade
+pkg install clang && pkg install git
+)
+linux:
+(
+sudo apt install libncurses-dev
+sudo apt install clang && sudo apt install gcc
+sudo apt install git
+)
 git clone https://github.com/boroveen/mysoft/
 cd mysoft
 ls

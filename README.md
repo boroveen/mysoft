@@ -32,7 +32,7 @@ or
 cd termux
 ./file
 ```
-## test code
+## boroveen
 ```c++
 #include <stdio.h>
 int main(){

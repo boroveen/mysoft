@@ -22,6 +22,10 @@ ls
 ```
 chmod 775 ./test
 ```
+or
+```
+chmod 775 *
+```
 ## start on termux
 ```
 gcc test.cpp -o test -lncurses

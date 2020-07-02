@@ -20,17 +20,19 @@ ls
 ```
 ## error denied
 ```
-chmod 775 ./file
+chmod 775 ./test
 ```
 ## start on termux
 ```
-gcc file.cpp -o file -lncurses
-./file
+gcc test.cpp -o test -lncurses
+./test
 ```
 or
 ```
 cd termux
-./file
+./test
+lol, not found
+a net)))))
 ```
 ## boroveen
 ```c++

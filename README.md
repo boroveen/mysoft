@@ -52,5 +52,5 @@ puts("######## #   #           #   #         #                         ######\n"
      "##       ##              ##    ##              #          #       ##\n");
 return 0;
 }
-
 ```
+![alt tag](http://domain.com/path/to/img.png "Описание будет тут")​

@@ -1,5 +1,5 @@
 # mysoft
-# my soft for linux and termux
+# my soft for linux, iSH and termux
 ## download
 ```
 termux:

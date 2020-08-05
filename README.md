@@ -7,6 +7,10 @@ termux:
 pkg update && pkg upgrade
 pkg install clang && pkg install git
 )
+iSH:
+(
+apk add ncurses-dev git gcc g++ nano
+)
 linux:
 (
 sudo apt-get install libncurses-dev
@@ -31,13 +35,6 @@ chmod 775 *
 ```
 gcc test.cpp -o test -lncurses
 ./test
-```
-or
-```
-cd termux
-./test
-lol, not found
-a net)))))
 ```
 ## boroveen
 ```c++

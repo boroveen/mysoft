@@ -31,7 +31,7 @@ or
 ```
 chmod 775 *
 ```
-## start on termux
+## start on devices
 ```
 gcc test.cpp -o test -lncurses
 ./test

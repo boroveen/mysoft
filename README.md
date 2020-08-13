@@ -1,23 +1,21 @@
 # mysoft
 # my soft for linux, iSH and termux
 ## download
+Termux
 ```
-termux:
-(
 pkg update && pkg upgrade
 pkg install clang && pkg install git
-)
-iSH:
-(
+```
+iSH
+```
 apk add ncurses-dev git gcc g++ nano
-)
-linux:
-(
+```
+Ubuntu
+```
 sudo apt-get install libncurses-dev
 sudo apt-get install git nano clang
-sudo apt-get install gcc
-sudo apt-get install c++
-)
+```
+```
 git clone https://github.com/boroveen/mysoft/
 cd mysoft
 ls

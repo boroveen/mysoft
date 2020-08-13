@@ -15,6 +15,10 @@ Ubuntu
 sudo apt-get install libncurses-dev
 sudo apt-get install git nano clang
 ```
+Arch Linux
+```
+pacman -S gcc g++ nano ncurses-dev nano
+```
 ```
 git clone https://github.com/boroveen/mysoft/
 cd mysoft

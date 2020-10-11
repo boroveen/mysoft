@@ -25,8 +25,8 @@ test:
 clean:
         rm test matrix game number
 #install:
-#       cp ./afetch /usr/local/bin/afetch
-#       chmod 711 /usr/local/bin/afetch
+#       cp
+#       chmod
 #uninstall:
-#       rm -f /usr/local/bin/afetch
+#       rm
 .PHONY: clean all install

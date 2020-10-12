@@ -23,7 +23,7 @@ pacman -S gcc g++ nano ncurses-dev nano
 git clone https://github.com/boroveen/mysoft/
 cd mysoft
 ls
-./file
+make
 ```
 ## error denied
 ```

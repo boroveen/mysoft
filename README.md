@@ -42,7 +42,7 @@ gcc test.cpp -o test -lncurses
 # not my soft, this is b0mb3r
 ```
 cd beta
-sh install-b0mb3r.sh
+sh install_b0mb3r.sh
 ```
 ## boroveen
 ```c++

@@ -39,6 +39,11 @@ chmod 775 *
 gcc test.cpp -o test -lncurses
 ./test
 ```
+# not my soft, this is b0mb3r
+```
+cd beta
+sh install-b0mb3r.sh
+```
 ## boroveen
 ```c++
 #include <stdio.h>

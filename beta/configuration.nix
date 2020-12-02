@@ -17,7 +17,7 @@ uid = 51011;
 group = "toblack";
 extraGroups = [ "wheel" "users" ];
 };
-users.groups.rebrain = {
+users.groups.toblack = {
 gid = 51011;
 };
 system.stateVersion = "20.09";

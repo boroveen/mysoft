@@ -11,10 +11,10 @@ environment.systemPackages = with pkgs; [
 wget vim mkpasswd
 ];
 services.openssh.enable = true;
-users.users.rebrain = {
+users.users.toblack = {
 isNormalUser = true;
 uid = 51011;
-group = "rebrain";
+group = "toblack";
 extraGroups = [ "wheel" "users" ];
 };
 users.groups.rebrain = {

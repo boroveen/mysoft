@@ -8,7 +8,7 @@ boot.loader.grub.version = 2;
 boot.loader.grub.device = "/dev/vda";
 networking.hostName = "NixOS-example";
 environment.systemPackages = with pkgs; [
-wget vim mkpasswd
+wget vim mkpasswd firefox
 ];
 services.openssh.enable = true;
 users.users.toblack = {

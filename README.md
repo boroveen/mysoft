@@ -4,20 +4,20 @@
 Termux
 ```
 pkg update && pkg upgrade
-pkg install clang && pkg install git
+pkg install clang git nano make
 ```
 iSH
 ```
-apk add ncurses-dev git gcc g++ nano
+apk add ncurses-dev git gcc g++ nano make
 ```
 Ubuntu
 ```
 sudo apt-get install libncurses-dev
-sudo apt-get install git nano clang
+sudo apt-get install git nano clang make
 ```
 Arch Linux
 ```
-pacman -S gcc g++ nano ncurses-dev nano
+pacman -S gcc g++ nano ncurses-dev nano make
 ```
 ```
 git clone https://github.com/boroveen/mysoft/

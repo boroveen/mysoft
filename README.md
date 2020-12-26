@@ -58,4 +58,4 @@ puts("######## #   #           #   #         #                         ######\n"
 return 0;
 }
 ```
-![alt tag](https://boroveen.github.io/video/прикольно.gif "./test")​
+![alt tag](https://boroveen.github.io/video/прикольно.gif "./test")

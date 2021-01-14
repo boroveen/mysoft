@@ -3,7 +3,7 @@
 using namespace std;
 int row,cal,x[2],y[10],y1[10],g=0;
 char name1[10],name2[10];
-bool gg=false,player=false,restart=false,drawyy1=false;
+bool gg=false,player=false,restart=false,drawyy1=true;
 
 void Input(){
 switch(getch()){

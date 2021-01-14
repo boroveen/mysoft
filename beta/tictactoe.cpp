@@ -475,7 +475,7 @@ noecho();
 curs_set(0);
 getmaxyx(stdscr,row,cal);
 
-/*Start();
+Start();
 printw("y:%d, x:%d",row,cal);
 mvprintw(row/2,cal/2-13,"name player1:");
 getstr(name1);
@@ -483,7 +483,7 @@ Start();
 mvprintw(row/2,cal/2-13,"name player2:");
 getstr(name2);
 
-Start();*/
+Start();
 start_color();
 init_pair(1,COLOR_WHITE,COLOR_BLACK);
 init_pair(2,COLOR_GREEN,COLOR_BLACK);

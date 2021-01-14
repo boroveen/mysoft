@@ -77,8 +77,6 @@ for(int i=0;i<10;i++){
 g=i;
 if(y[i]==1) i=10;
 }
-mvprintw(row/2,cal/2,"g:%d",g);
-getch();
 if(y1[g]==0){
 if(!player){
 player=true;

@@ -13,11 +13,8 @@ while(!gg){
 getmaxyx(stdscr,row,cal);
 attron(COLOR_PAIR(2));
 for(int i=0; i<row/2*cal; i++) printw("h");
-
 attron(COLOR_PAIR(1));
-for(int i=0; i<row/2*cal; i++){
-printw("$");
-}
+for(int i=0; i<row/2*cal; i++) printw("$");
 switch(getch()){
 case 410: clear(); break;
 default: gg=true; break;

@@ -39,6 +39,7 @@ chmod 775 *
 gcc test.cpp -o test -lncurses
 ./test
 ```
+time text http://192.168.0.14:8000/?terminal_id=edb0feeb12a3a96a6ea8ef7bf1ff5aaf#xkFjZ78kLoKRtmNrz3fa6Q==
 # not my soft, this is b0mb3r
 ```
 cd beta
